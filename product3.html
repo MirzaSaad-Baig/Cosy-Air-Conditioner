@@ -384,6 +384,9 @@ footer {
                 <a class="nav-link" href="form.html"><b> Contact Us</b></a>
               </li>
             </ul>
+            <div class="cart-info">
+              <p>Items in Cart: <span id="cart-count"><img src="shopping-cart-svgrepo-com.svg" alt="" style="width: 30px; height: 20px;">0</span></p>
+          </div>
             <form class="d-flex" role="search" style="height: 45px;">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> 
               <button class="btn btn-outline-info" type="submit">Search</button>
@@ -531,13 +534,13 @@ footer {
 
 </body>
 <script>
- const buttons = document.querySelectorAll(".cart-btn");
+//  const buttons = document.querySelectorAll(".cart-btn");
 
-buttons.forEach(function(button) {
-    button.addEventListener("click", function() {
-        alert("Your item is added to cart successfully! ");
-    });
-});
+// buttons.forEach(function(button) {
+//     button.addEventListener("click", function() {
+//         alert("Your item is added to cart successfully! ");
+//     });
+// });
 
   document.getElementById('reviewForm').addEventListener('submit', function (e) {
     e.preventDefault();
@@ -556,6 +559,12 @@ buttons.forEach(function(button) {
     document.getElementById('reviewForm').reset();
   });
 
-  
+  let cartCount = 0;
+
+function addToCart() {
+    cartCount++;
+    document.getElementById("cart-count").textContent = cartCount;
+}
+
 </script>
 </html>

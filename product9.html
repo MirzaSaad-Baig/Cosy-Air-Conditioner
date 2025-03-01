@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Air Conditioner</title>
 <style>
-    /* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -32,6 +31,7 @@ header .tagline {
   margin-top: 10px;
 }
 
+/* Product Overview */
 .product-overview {
   display: flex;
   padding: 20px;
@@ -107,7 +107,6 @@ header .tagline {
   background: #1985a0;
 }
 
-/* Specifications */
 .specifications {
   max-width: 1200px;
   margin: 20px auto;
@@ -134,7 +133,7 @@ header .tagline {
 }
 
 .specifications th {
-  background: #00a2ff;
+  background: #15b2da;
   color: #fff;
 }
 .bbj{
@@ -212,7 +211,6 @@ footer {
   color: #f0f8ff;
 }
 
-/* Newsletter Form */
 .newsletter-form {
   display: flex;
   align-items: center;
@@ -398,9 +396,8 @@ footer {
         </div>
       </nav> 
       <img src="images/ver_img.jpg" alt="" style="padding: 0px; margin: 0px; width: 1583px; height: 330px;">
-  
   <header>
-    <h1>Midea 2T (H&C) Inverter Air Conditioner</h1>
+    <h1>New Model of Changhong also Eco-Friendly </h1>
     <p class="tagline">The Ultimate Cooling Solution for Your Home</p>
 </header>
 <div class="bbj">
@@ -408,12 +405,12 @@ footer {
 </div>
 <section class="product-overview" >
   <div class="product-image">
-    <img src="images/pngwing.com (2).png" alt="img is not responding properly...." >
-    <h2><del>Rs:57,999</del></h2> <h1 >Rs:40,000 </h1>
-    </div>
-    <div class="product-details" style="margin-top: 150px;">
+    <img src="images/pngwing.com (7).png" alt="img is not responding properly....">
+    <del>Rs:42,999</del> <h3 >Rs:39,999 </h3>
+  </div>
+  <div class="product-details" style="margin-top: 150px;">
       <h2>Key Features</h2>
-      <ul style="width: 300px;">
+      <ul>
         <li><b>Energy Efficiency </b>: 5-star energy rating</li>
         <li><b>Smart Cooling Technology </b>: AI-powered sensors</li>
         <li><b>Whisper-Quiet Operation </b>: As low as 19 dB</li>
@@ -422,8 +419,10 @@ footer {
         <li><b>Self-Cleaning Function </b>: Keeps the unit clean</li>
         <li><b>Wide Coverage </b>: Cools up to 600 sq. ft.</li>
       </ul>
-     <a href="payment.html"> <button class="cta-button">Buy Now</button></a>
-      <button class="cart-btn">Add to Cart</button> <br>  <a href="images/pngwing.com (2).png"><button class="veiw-btn" style="margin-left: 4rem;">Veiw Image</button></a> 
+    <a href="payment.html">  <button class="cta-button">Buy Now</button></a>
+      <button class="cart-btn" onclick="addToCart()">Add to Cart</button>                 
+   
+       <br>  <a href="images/pngwing.com (7).png"><button class="veiw-btn" style="margin-left: 4rem;">Veiw Image</button></a> 
     </div>
     </section>
     <section class="specifications">
@@ -485,7 +484,6 @@ footer {
       </div>
     </section>
   
-
                              <!-------       footer     -------->
   <footer>
     <div class="footer-container">
@@ -507,7 +505,7 @@ footer {
         <div class="footer-section">
             <h3>Contact Us</h3>
             <ul>
-                <li><i class="fas fa-map-marker-alt"></i> 123 Cozy Street, Comfort City</li>
+              <a href="https://www.google.com/maps/place/Aptech+Computer+Education+North+Nazimabad+Center/@24.926879,67.034748,16z/data=!4m6!3m5!1s0x3eb33f90157042d3:0x93d609e8bec9a880!8m2!3d24.9268785!4d67.0347483!16s%2Fg%2F11xyvbmyb?hl=en&entry=ttu&g_ep=EgoyMDI1MDIxOC4wIKXMDSoASAFQAw%3D%3D"  style="color: #ffffff;"><li><i class="fas fa-map-marker-alt" ></i>Aptech Computer Education North Nazimabad Center</li></a>
                 <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
                 <li><i class="fas fa-envelope"></i> info@cozyairconditioners.com</li>
             </ul>
@@ -524,25 +522,18 @@ footer {
     </div>
 
     <div class="footer-bottom">
-      <div class="social-icons">
-        <a href="https://www.facebook.com/business/help/1093295047789621" class=".buy-now-button" ><i class="fab fa-facebook-f"></i></a>
-        <a href="https://x.com/?lang=en" class=".buy-now-button" ><i class="fab fa-twitter"></i></a>
-        <a href="https://help.instagram.com/1093295047789621/?helpref=related_articles" class=".buy-now-button" ><i class="fab fa-instagram"></i></a>
-        <a href="https://pk.linkedin.com/" class=".buy-now-button" ><i class="fab fa-linkedin-in"></i></a>
-      </div>
-      <p>&copy; 2025 Cozy AIR CONDITIONERS. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/business/help/1093295047789621" class=".buy-now-button" ><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/?lang=en" class=".buy-now-button" ><i class="fab fa-twitter"></i></a>
+            <a href="https://help.instagram.com/1093295047789621/?helpref=related_articles" class=".buy-now-button" ><i class="fab fa-instagram"></i></a>
+            <a href="https://pk.linkedin.com/" class=".buy-now-button" ><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2025 Cozy AIR CONDITIONERS. All rights reserved.</p>
+    </div>
 </footer>
 
 </body>
 <script>
-//  const buttons = document.querySelectorAll(".cart-btn");
-
-// buttons.forEach(function(button) {
-//     button.addEventListener("click", function() {
-//         alert("Your item is added to cart successfully! ");
-//     });
-// });
-
   document.getElementById('reviewForm').addEventListener('submit', function (e) {
     e.preventDefault();
     const rating = document.getElementById('rating').value;
@@ -560,12 +551,20 @@ footer {
     document.getElementById('reviewForm').reset();
   });
 
-  let cartCount = 0;
+//   const buttons = document.querySelectorAll(".cart-btn");
+
+// buttons.forEach(function(button) {
+//     button.addEventListener("click", function() {
+//         alert("Your item is added to cart successfully! ");
+//     });
+// });
+let cartCount = 0;
 
 function addToCart() {
     cartCount++;
     document.getElementById("cart-count").textContent = cartCount;
 }
-  
+
+
 </script>
 </html>

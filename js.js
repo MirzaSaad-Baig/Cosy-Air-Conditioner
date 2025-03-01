@@ -33,3 +33,16 @@
             });
         
           });
+
+
+
+
+
+          const buttons = document.querySelectorAll("#btn-news");
+
+          buttons.forEach(function(button) {
+              button.addEventListener("click", function() {
+                  alert("This feature is comming soon!");
+              });
+          });
+          
